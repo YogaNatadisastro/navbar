@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+
+    <!--======= CSS =======-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--======= Boxicon CSS =======-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Dashbord Sidebar Menu | Dark-Light Mode</title>
+  </head>
+  <body>
+    <nav class="sidebar">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img src="logo.png.png" alt="logo" />
+          </span>
+          <div class="text header-text">
+            <span class="name">Kopi</span>
+            <span class="profession">TuanSua</span>
+          </div>
+        </div>
+        <em class="bx bx-chevron-right toggle"></em>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <li class="search-box">
+            <em class="bx bx-search icon"></em>
+            <input type="search" placeholder="Search..." />
+          </li>
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="#">
+                <em class="bx bx-home-alt icon"></em>
+                <span class="text nav-text">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <em class="bx bx-bar-chart-alt-2 icon"></em>
+                <span class="text nav-text">Revenue</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <em class="bx bx-bell icon"></em>
+                <span class="text nav-text">Notifaction</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <em class="bx bx-pie-chart-alt icon"></em>
+                <span class="text nav-text">Analytic</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <em class="bx bx-heart icon"></em>
+                <span class="text nav-text">Likes</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <em class="bx bx-wallet icon"></em>
+                <span class="text nav-text">Wallet</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="botton-content"></div>
+        <li class="">
+          <a href="#">
+            <em class="bx bx-log-out icon"></em>
+            <span class="text nav-text">Logout</span>
+          </a>
+        </li>
+
+        <li class="Mode">
+          <div class="moon-sun">
+            <em class="bx bx-moon icon"></em>
+            <em class="bx bx-sun icon"></em>
+          </div>
+          <span class="mode-text text">Dark Mode</span>
+
+          <div class="toggle-switch">
+            <span class="swicth"></span>
+          </div>
+        </li>
+      </div>
+    </nav>
+  </body>
+</html>
